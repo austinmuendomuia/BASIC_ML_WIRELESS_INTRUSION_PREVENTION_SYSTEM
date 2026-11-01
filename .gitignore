@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore massive datasets and logs
+*.csv
+*.pcap
+blocked_macs.logs
+
+# Ignore compiled ML models (unless you specifically want them backed up)
+*.pkl
